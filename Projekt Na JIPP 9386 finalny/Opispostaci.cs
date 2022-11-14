@@ -26,7 +26,24 @@ namespace Projekt_Na_JIPP_9386_finalny
             labelplecopis.Text = g1.Płeć.ToString();
             labelklasaopis.Text = g1.Klasa.ToString();
             labelzdrowieopis.Text = g1.Zdrowie.ToString();
-            labelatakopis.Text = g1.Siła.ToString();
+            
+            if (g1.Klasa == wKlasy.Wojownik)
+            {
+                labelatakopis.Text = g1.Siła.ToString();
+            }
+            else if (g1.Klasa == wKlasy.Mag)
+            {
+                labelatakopis.Text = g1.Inteligencja.ToString();
+            }
+            else if (g1.Klasa == wKlasy.Łucznik)
+            {
+                labelatakopis.Text = g1.Zręczność.ToString();
+            }
+            else if (g1.Klasa == wKlasy.Kapłan)
+            {
+                labelatakopis.Text = g1.Inteligencja.ToString();
+            }
+            
             
 
             if (this.labelklasaopis.Text == "Wojownik" && this.labelplecopis.Text == "Mężczyzna")
