@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt Na JIPP 9386 finalny", "Projekt Na JIPP 9386 finalny\Projekt Na JIPP 9386 finalny.csproj", "{3FCB281F-3B64-418A-AF52-2474AFFAC5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojaKontrolka", "MojaKontrolka\MojaKontrolka.csproj", "{4E6E2A68-C2D4-49A7-9E2C-687CC709B56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FCB281F-3B64-418A-AF52-2474AFFAC5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCB281F-3B64-418A-AF52-2474AFFAC5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCB281F-3B64-418A-AF52-2474AFFAC5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCB281F-3B64-418A-AF52-2474AFFAC5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6E2A68-C2D4-49A7-9E2C-687CC709B56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6E2A68-C2D4-49A7-9E2C-687CC709B56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6E2A68-C2D4-49A7-9E2C-687CC709B56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6E2A68-C2D4-49A7-9E2C-687CC709B56D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ECCBFB4-7983-4CB3-A398-224BE9C9E50A}
+	EndGlobalSection
+EndGlobal
